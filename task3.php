@@ -24,12 +24,12 @@
 </head>
 <body>
 <form name="authForm" method="GET" action="<?= $_SERVER['PHP_SELF'] ?>">
-    n:<input type="text" name="n">
+    Ввведите кол-во столбцов:<input type="text" name="n">
     <input type="submit">
 </form>
 <?php
 $n = $_GET['n'];
-echo '<table border="1"</br>>';
+echo '<table border="1"></br>';
 echo '<tr><th>' . 'Номер п/п' . '</th><th colspan= "1000">' . 'Число' . '</th></tr>';
 
 echo '<tr class="active1">';
