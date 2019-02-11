@@ -12,12 +12,13 @@
 </head>
 <body>
 <form name="authForm" method="GET" action="<?=$_SERVER['PHP_SELF']?>">
-n:<input type="text" name="n">
+Введите кол-во столбцов:<input type="text" name="n">
   <input type="submit">
 </form>
 <?php
 $n = $_GET['n'];
-echo '<table border="1">';
+echo '<table border="1"></br>';
+
 echo'<tr><th>'.'Номер п/п'.'</th><th colspan= "1000">'.'Число'.'</th></tr>';
 for ($a = 1; $a <= 4; $a++) {
 
