@@ -8,7 +8,6 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <title>Test</title>
     <style>
         .active {
             background: #7b7c7c;
