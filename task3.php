@@ -9,7 +9,6 @@ CSS), цвет текста должен
 <html>
 <head>
     <meta charset="utf-8"/>
-    <title>Test</title>
     <style>
         .active1 {
             background: #ffa69a;
