@@ -8,12 +8,6 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <style>
-        .active {
-            background: #7b7c7c;
-        }
-
-    </style>
 </head>
 <body>
 <form name="authForm" method="GET" action="<?= $_SERVER['PHP_SELF'] ?>">
